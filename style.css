@@ -1,0 +1,110 @@
+body {
+  font-family: 'montserrat'!important;
+}
+.name-heading {
+   font-family: 'Amatic SC' !important;
+}
+
+.Career , .Aboutme , .Education , .Hobbies , .contact , .details{
+ font-family: montserrat !important;
+ font-weight: normal;
+}
+ #main{
+   text-align: center;
+   height : 100vh;
+   padding-top: 20vh;
+   padding-bottom: 20vh;
+   padding-left: 20vh;
+   padding-right: 20vh;
+   color: brown;
+   background-color: #efa8e4;
+
+ }
+
+ #picture{
+   border-radius: 100%;
+   padding-right:auto;
+
+ }
+ #Aboutme{
+
+   background-color: #f8e1f4;
+   text-align: center;
+   padding: 4vh;
+   margin: 0vh;
+   padding-bottom: 1vh;
+ }
+ #Aboutme ul{
+   list-style-type:none;
+ }
+ #myCareer {
+   background-color: #f8e1f4;
+   text-align: center;
+   padding: 1vh;
+   margin: auto;
+   padding-bottom: 3vh;
+
+
+ }
+
+#myCareer h2 {
+  text-align: center;
+}
+ #hobbies {
+   background-color: #f8e1f4;
+   text-align: center;
+   padding : 1vh;
+   margin: auto;
+ }
+
+#education{
+  background-color: #97e5ef;
+  text-align: center;
+  padding: 2vh ;
+  margin: auto;
+  padding-bottom: 2vh;
+
+}
+
+#projects {
+  background-color: #fff0f5;
+  text-align: center;
+  padding: 1vh;
+  margin: auto;
+  grid-column: auto ;
+  padding-top: 3vh;
+
+}
+#details{
+  text-align: center;
+  background-color: #97e5ef;
+  padding: 3vh;
+  margin: auto;
+}
+
+#contact{
+  background-color: #fff0f5;
+  padding: 2vh;
+  margin: auto;
+
+}
+
+#main h1{
+  font-size:55px;
+}
+.navbar{
+  margin-left: 0vh;
+}
+
+@media{
+  picture:50px;
+}
+#main {
+  font-family: Amatic SC;
+  font-weight: bold;
+  font-size:25px;
+}
+
+#navbar{
+  margin-left: 1000px;
+}
